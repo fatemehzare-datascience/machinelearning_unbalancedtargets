@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix
 from sklearn.linear_model import LogisticRegression
 
-df = pd. read_csv("DataScienceChallenge.csv")
+df = pd. read_csv("DataSciencedataset.csv")
 le = LabelEncoder()
 df = df.rename(columns={"Unnamed: 27":"x27"})
 df = df.rename(columns={"Unnamed: 28":"x28"})
